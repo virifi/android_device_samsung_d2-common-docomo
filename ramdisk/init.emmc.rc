@@ -151,9 +151,9 @@ on emmc-fs
         chown system system /sys/class/mdnie/mdnie/negative
         chown system media_rw /sys/class/mdnie/mdnie/playspeed
 # permissions for NFC
-    setprop ro.nfc.port "I2C"
-    chmod 0600 /dev/pn544
-    chown nfc nfc /dev/pn544
+#    setprop ro.nfc.port "I2C"
+#    chmod 0600 /dev/pn544
+#    chown nfc nfc /dev/pn544
 
 # permission for CHARGING
    chown system radio /sys/class/power_supply/battery/batt_reset_soc
