@@ -73,7 +73,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += lights.msm8960
 
 # common msm8960
-$(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
+$(call inherit-product, device/samsung/msm8960-common-docomo/msm8960.mk)
 
 $(call inherit-product, frameworks/base/build/phone-xhdpi-1024-dalvik-heap.mk)
 
